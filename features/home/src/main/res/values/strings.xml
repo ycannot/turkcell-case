@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="price_in_try">Ürün Fiyatı: %s₺</string>
+    <string name="contact_with_developer">Developer ile iletişime geç</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non felis sed magna porta lacinia. Fusce tellus metus, tincidunt quis dignissim non, congue sit amet sapien. Fusce rutrum sapien nunc, et tincidunt erat pretium in. Nulla non dui id ex tincidunt tempor eget eget metus. Maecenas consequat accumsan finibus. Ut placerat sed arcu vel lobortis. In hac habitasse platea dictumst. Ut euismod nibh in ex eleifend congue. Fusce enim mi, porta ut efficitur nec, ornare sit amet justo. Nam non porttitor turpis. Vestibulum a semper lectus, a placerat neque.</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="navigate_back">Geri dön</string>
+    <string name="product_id">Product ID: %s</string>
+    <string name="device_connection_not_available">Cihaz bağlı değil. Veriler cache\'den gelmekte.</string>
+</resources>

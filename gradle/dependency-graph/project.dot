@@ -1,0 +1,30 @@
+digraph {
+  graph [label="ttech-case\n ",labelloc=t,fontsize=30,ranksep=1.4];
+  node [style=filled, fillcolor="#bbbbbb"];
+  rankdir=TB;
+
+  # Projects
+
+  ":app" [fillcolor="#baffc9"];
+  ":common:composable" [fillcolor="#baffc9"];
+  ":core" [fillcolor="#baffc9"];
+  ":data" [fillcolor="#baffc9"];
+  ":domain" [fillcolor="#baffc9"];
+  ":features:home" [fillcolor="#baffc9"];
+
+  {rank = same;}
+
+  # Dependencies
+
+  ":app" -> ":features:home" [style=dotted]
+  ":app" -> ":common:composable" [style=dotted]
+  ":app" -> ":domain" [style=dotted]
+  ":data" -> ":core" [style=dotted]
+  ":domain" -> ":core" [style=dotted]
+  ":domain" -> ":data" [style=dotted]
+  ":features:home" -> ":common:composable" [style=dotted]
+  ":features:home" -> ":core" [style=dotted]
+  ":features:home" -> ":domain" [style=dotted]
+  ":common:composable" -> ":domain" [style=dotted]
+  ":common:composable" -> ":core" [style=dotted]
+}
