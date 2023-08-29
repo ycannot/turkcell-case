@@ -1,6 +1,10 @@
 # YigitCanYilmaz
 X Case Test
 
+Unit test samples are availible under `:features:home` and `:domain` modules. Downloadable APK is available in *Releases* section.
+
+Latest available package: [turkcell-case-release-v1.0.0](https://github.com/ycannot/turkcell-case/releases/tag/turkcell-case-release-v1.0.0)
+
 ## TechStack
 * Jetpack Compose
 * Coroutine
